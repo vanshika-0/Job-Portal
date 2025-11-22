@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome 6 CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/federica-script" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="jobportal">
+            <span id="job">JOB</span><span id="span">PORTAL</span>
+        </div>
+        <div class="header-links">
+            <a href="profile.html">Home</a>
+            <a href="myjob.html">MyJobs</a>
+            <a href="messages.html">Messages</a>
+            <a href="notification.html">Notifications</a>
+            <a href="account.html">Account</a>
+        </div>
+
+    </header>
+
+    <div class="account-container">
+
+        <h1 class="account-title"><a href="account-form.html"><b>Add Name</b></a></h1>
+
+        <div class="account-photo">
+            <div class="icon">👤</div>
+        </div>
+
+        <div class="details">
+            <p><span class="icon-small">✉️</span> <a href="account-form.html">Gmail</a></p>
+            <p><span class="icon-small">📞</span> <a href="account-form.html" class="link">Add phone number</a></p>
+            <p><span class="icon-small">📍</span> <a href="account-form.html">India,IN</a></p>
+        </div>
+        <h2 class="sub-heading">Resume</h2>
+        <div class="account-btn-row">
+            <!-- Hidden file input -->
+            <input type="file" id="resumeUpload" style="display: none;">
+
+            <!-- Upload Resume button -->
+            <button class="account-upload-resume" onclick="document.getElementById('resumeUpload').click()">
+                Upload Resume
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>

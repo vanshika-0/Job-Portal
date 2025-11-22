@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome 6 CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/federica-script" rel="stylesheet">
+
+    <style>
+        :root {
+            --main-color: #668355;
+            --text-color: #4B5F43;
+            --bg-color: #E8F5DB;
+        }
+
+        header {
+            display: flex;
+            background-color: var(--main-color);
+            padding: 10px;
+            color: white;
+            gap: 63%;
+            justify-content: center;
+        }
+
+        header .jobportal {
+            color: white;
+            font-size: 21px;
+        }
+
+        .header-links a {
+            text-decoration: none;
+            color: white;
+            text-align: end;
+        }
+
+        .header-links {
+            gap: 20px;
+            display: flex;
+        }
+
+        .header-links button {
+
+            background-color: white;
+            border-radius: 10px;
+            padding: 2px 10px;
+        }
+
+        .container {
+            max-width: 100%;
+            background-color: var(--bg-color);
+
+        }
+        h4{
+            color: var(--text-color);
+        }
+        p,ul li{
+            color: var(--main-color);
+        }
+
+        .inside-container {
+            padding: 2% 20%;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+        }
+        .inside-container h2{
+            color: var(--text-color);
+        }
+        #unkown-delhi-p{
+            border-bottom: 2px solid #4B5F43;
+            color: var(--main-color);
+            margin-bottom: 2%;
+        }
+        #locations{
+            border-top: 2px solid #4B5F43;
+            color: var(--main-color);
+            margin-bottom: 2%;
+        }
+        button{
+            margin-bottom: 2%;
+            color: var(--text-color);
+        }
+        button a{
+            text-decoration: none;
+            color:var(--text-color);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="jobportal">
+            <span id="job">JOB</span><span id="span">PORTAL</span>
+        </div>
+        <div class="header-links">
+            <a href="profile.html">Home</a>
+            <a href="myjob.html">MyJobs</a>
+            <a href="messages.html">Messages</a>
+            <a href="notification.html">Notifications</a>
+            <a href="account.html">Account</a>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="inside-container">
+            <h2>Fronend Developer</h2>
+            <p id="unkown-delhi-p">Unkown,Delhi</p>
+
+            <h2>Job-Details</h2>
+            <p>Here’s how the job details align with your profile.</p>
+            <p>Job-Type</p>
+            <button >Permanent</button>
+
+            <h2 id="locations">Locations</h2>
+            <p id="unkown-delhi-p">Unkonw ,Delhi</p>
+
+
+            <h2>Full Job Description</h2>
+            <h4>Company Discription</h4>
+            <p>IndiaRush — Shopping With Friends Directly From Manufacturer Fast Fashion Marketplace. Since 2011 with 8
+                digits revenue number and 2Mn monthly traffic on the website. A strong team of 50+ brilliant people.</p>
+            <h4>Job Discription</h4>
+            <p>Looking for a great Frontend developer in an internet consumer product company. The basic role will be
+                creating a great UI/UX for consumers with given APIs. We mainly work in the Material UI framework with
+                React
+                JS and PHP backend for APIs. Scale and performance are the main objectives with great customer
+                experience.
+            </p>
+            <h4>Qualifications</h4>
+            <ul>
+                <li>1. Sound knowledge of HTML5 and CSS3 for any type of designs. Mainly work on in-house e-commerce
+                    site,
+                    with the basic template already built.</li>
+
+                <li> Strong knowledge of any JavaScript single page framework (React / Angular / Vue). Background in
+                    React is a plus.</li>
+                <li>Strong Understanding of JavaScript using current design patterns/practices, especially as it applies
+                    to build React JS applications</li>
+                <li>Experience with web application development frameworks and tools like React, Redux</li>
+                <li>Good English communication</li>
+            </ul>
+
+            <h4>Additional Information</h4>
+            <p>Salary will be as per market standards.</p>
+
+
+            <button><a href="applu-now.html">Apply now</a></button>
+        </div>
+    </div>
+</body>

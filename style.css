@@ -1,0 +1,725 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #668355;
+    --text-color: #4B5F43;
+    --bg-color: #E8F5DB;
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: var(--main-color);
+    padding: 10px;
+    color: white;
+    gap: 63%;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--main-color);
+    line-height: 400%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+footer p {
+    color: #E8F5DB;
+    font-size: 21px;
+    margin-left: 4%;
+}
+
+header .jobportal {
+    color: white;
+    font-size: 21px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+    text-align: end;
+}
+
+.header-links {
+    gap: 20px;
+    display: flex;
+}
+
+.header-links button {
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.header-links button a,
+.frontend-backend button a {
+    text-decoration: none;
+    background-color: white;
+    color: #031021;
+}
+
+.container {
+    /* justify-content: center; */
+    text-align: center;
+    max-width: none;
+    margin: 5% 0px;
+}
+
+.huntwebsite {
+    color: #062456;
+    border-radius: 10px;
+    margin: 0px 44%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.searchjobs {
+    margin: 8px;
+    color: var(--main-color);
+    font-size: 41px;
+
+}
+
+#dream-jobs {
+    color: var(--text-color);
+}
+
+.hlo-everyone {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+
+
+/* .search-box {
+    display: flex;
+    margin: 2% 25% 2% 31%;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 556px;
+   
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px 0 0 50px;
+}
+
+.search-box button {
+    background-color: var(--text-color);;
+    /* Green color */
+/*
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #218838;
+    Darker green on hover 
+}
+
+.search-box i {
+    color: var(--text-color);
+    font-size: 18px;
+} */
+
+.frontend-backend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.frontend-backend button {
+    border-radius: 10px;
+    width: 8%;
+    padding: 5px;
+    border: 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.frontend-backend button a {
+    color: var(--text-color);
+    ;
+}
+
+.frontend-backend i {
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    color: var(--text-color);
+    ;
+}
+
+.latest-jobs h3 {
+    color: var(--text-color);
+    margin-left: 3.8%;
+    margin-bottom: 2%;
+    margin-top: 3.8%;
+}
+/* 
+ 
+#job-opening {
+    margin-top: 3.8%;
+
+}  */
+
+.apple-India {
+    margin-left: 3.8%;
+    width: 20%;
+    padding: 5px 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.profile-frotnend-develop-job{
+    margin-bottom: 3.8%;
+    margin-left: 3.8%;
+    width: 20%;
+    padding: 5px 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.profile-jobs-row{
+    display: flex;
+}
+.profile-frotnend-develop-job a{
+    font-size: large;
+    text-decoration: none;
+}
+.profile-frontend-develop-b{
+    color: var(--text-color);
+    margin-bottom: 2%;
+}
+.profile-frotnend-develop-job-permanent{
+    color: var(--text-color);
+    font-size: small;
+}
+.profile-frontend-develop-job-india-delhi{
+    color:var(--main-color);
+    font-size:medium;
+}
+.profile-frotnend-develop-job p{
+    color: var(--main-color);
+    font-size: small;
+}
+.profile-frotnend-develop-job p i{
+    font-size: small;
+}
+.apple-India a p i{
+    font-size: small;
+}
+.apple-India a p{
+    font-size: small;
+}
+
+.apple-India a {
+    text-decoration: none;
+    color: var(--text-color);
+    ;
+}
+
+form {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 50%;
+    padding: 3%;
+}
+
+form input {
+    width: 100%;
+    font-size: 95%;
+    padding: 1%;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+form label {
+    text-align: left;
+    color: #727C6D;
+}
+
+.form-class {
+    margin: 2% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+
+    display: flex;
+}
+
+form h3 {
+    color: var(--text-color);
+    margin-bottom: 2%;
+}
+
+form button {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    width: 100%;
+    padding: 1%;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+
+}
+
+form p {
+    color: #727C59;
+    margin-top: 2%;
+}
+
+form p #Login a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#profile {
+    margin-left: 3%;
+    width: 44%;
+}
+
+#profile-label {
+    line-height: 3;
+    margin-left: 30%;
+}
+
+#recruiter {
+    margin-left: 5%;
+}
+
+#radio {
+    margin: 2% 0%;
+}
+
+.search-navbar-main {
+    margin: 1% 0% 1% 25.5%;
+}
+
+
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.Insidemyjobscontainer {
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 50%;
+    padding: 3%;
+}
+
+.myjobscontainer h3 b {
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: bold;
+    color: #3d5734;
+}
+
+.tabs {
+
+    color: #668355;
+    margin-top: 3%;
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.tab a {
+    text-decoration: none;
+    display: flex;
+    color: #668355;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.active {
+    padding-bottom: 5px;
+}
+
+.tab.active {
+    border-bottom: 3px solid #3D5734;
+}
+
+.content {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.img-box img {
+    width: 300px;
+    opacity: 0.9;
+}
+
+.heading {
+    color: #3D5734;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subtext {
+    color: #668355;
+    margin-top: 10px;
+}
+
+.find-btn {
+    margin-top: 40px;
+    display: inline-block;
+    background: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #3d5734;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #c3d7b2;
+}
+
+.find-btn:hover {
+    background: #f4faf0;
+}
+
+.myjobscontainer {
+    margin: 2% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.messages-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT PANEL */
+.left-panel {
+    border-radius: 10px;
+    margin: 2% 1% 0% 12%;
+    border: 2px solid #668355;
+    width: 30%;
+    background: #e9f4dd;
+    padding: 14px;
+
+}
+
+.left-panel h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #3b4f32;
+}
+
+.status-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-text {
+    font-size: 16px;
+    color: #225c23;
+    font-weight: bold;
+}
+
+.dropdown-box select {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    width: 100%;
+
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #668355;
+}
+
+.left-divider {
+    margin-top: 20px;
+    border-bottom: 2px solid #668355;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    border-radius: 10px;
+    margin: 2% 13% 0% 1%;
+    border: 2px solid #668355;
+    width: 63%;
+    background: #e9f4dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-placeholder {
+    text-align: center;
+}
+
+.msg-img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.message-placeholder h2 {
+    font-size: 26px;
+    color: #3b4f32;
+    margin-bottom: 5px;
+}
+
+.message-placeholder p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #668355;
+}
+
+.notification-container {
+    margin: 10% 10% 10% 10%;
+    text-align: center;
+
+}
+
+.notification-container h2 {
+    color: var(--text-color);
+}
+
+.notification-container p {
+    color: var(--main-color);
+}
+
+.notification-container button a {
+    padding: 2% 5%;
+    text-decoration: none;
+
+
+    color: var(--text-color);
+}
+
+.notification-container button {
+    border-radius: 5px;
+    background-color: white;
+    width: 15%;
+    height: 40px;
+}
+
+/*account*/
+
+
+.account-container {
+   background-color: var(--bg-color);
+   height: 100%;
+}
+
+.account-title {
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 2%;
+}
+.account-title a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.account-photo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.account-photo .icon {
+    font-size: 38px;
+    background: #444;
+    padding: 25px;
+    border-radius: 50%;
+    color: white;
+}
+
+.details {
+    
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.details p a{
+    text-decoration: none;
+    color: var(--main-color);
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.icon-small {
+    margin-right: 8px;
+}
+
+.sub-heading {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 22px;
+    color: var(--text-color);
+}
+.search-box{
+    width: 100%;
+}
+.account-btn-row {
+   
+    text-align: center;
+
+    gap: 15px;
+   padding: 20px 0px 14.2% 0px;
+}
+
+.account-upload-resume {
+    
+    background: #fff;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid --text-color;
+}
+
+/*account-form&*/
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+} */
+.account-form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 50%;
+    padding: 3%;
+}
+.account-form-container {
+    width: 100%;
+    max-width: 550px;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.account-form-container h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.account-form-subtitle {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 6px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.account-form-phone-row {
+    display: flex;
+    gap: 10px;
+}
+
+.account-form-phone-row select {
+    width: 35%;
+}
+
+.account-form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.account-form-info-text {
+    color: #777;
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.account-form-email-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.edit-link {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account-form-section-title {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.account-form-save-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: #0069f6;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.account-form-save-btn:hover {
+    background: #0054c7;
+}

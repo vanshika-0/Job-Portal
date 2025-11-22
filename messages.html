@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="jobportal">
+            <span id="job">JOB</span><span id="span">PORTAL</span>
+        </div>
+        <div class="header-links">
+            <a href="profile.html">Home</a>
+            <a href="myjob.html">MyJobs</a>
+            <a href="messages.html">Messages</a>
+            <a href="notification.html">Notifications</a>
+            <a href="account.html">Account</a>
+        </div>
+    </header>
+
+    <div class="messages-container">
+        
+        <div class="left-panel">
+            <h2><b>Messages</b></h2>
+            <div class="status-row">
+                <span class="status-dot"></span>
+                <span class="status-text">Online</span>
+            </div>
+            <div class="dropdown-box">
+                <select>
+                    <option>Inbox</option>
+                    <option>Archived</option>
+                    <option>Spam</option>
+                </select>
+            </div>
+            <div class="left-divider"></div>
+        </div>
+
+        <!-- ⭐⭐ BACKEND MESSAGES WILL APPEAR HERE ⭐⭐ -->
+        <div class="right-panel">
+            <div id="messages" class="message-placeholder">
+                <h2><b>You have messages</b></h2>
+                <p>When an employer contacts you,</p>
+                <p>you will see messages here.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ⭐⭐ CONNECT FRONTEND TO BACKEND ⭐⭐ -->
+    <script>
+    fetch("http://localhost:8080/api/messages/inbox/1")
+        .then(res => res.json())
+        .then(data => {
+            let html = "";
+            data.forEach(m => {
+                html += `
+                    <div class="single-message">
+                        <h5><b>${m.subject}</b></h5>
+                        <p>${m.body}</p>
+                        <hr>
+                    </div>
+                `;
+            });
+
+            document.getElementById("messages").innerHTML = html;
+        });
+    </script>
+
+</body>
+
+</html>
