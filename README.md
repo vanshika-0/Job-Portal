@@ -43,9 +43,13 @@ A web-based platform that allows job seekers to register, search, and apply for 
 <img width="1588" height="690" alt="image" src="https://github.com/user-attachments/assets/5056d9ea-052f-4cf2-a647-dc02cc304d0c" />
 <img width="1917" height="764" alt="Screenshot 2025-11-18 230830" src="https://github.com/user-attachments/assets/0a952be9-dec7-4f7e-9362-44a000929810" />
 <img width="1914" height="898" alt="Screenshot 2025-11-18 215743" src="https://github.com/user-attachments/assets/9c93b9aa-4089-4019-8d7d-a47016992148" />
-<img width="1331" height="613" alt="image" src="https://github.com/user-attachments/assets/80c2cc55-ac84-4c98-b59c-642603287e19" />
 <img width="1892" height="910" alt="image" src="https://github.com/user-attachments/assets/c26df880-d93d-4cc1-8515-a63ff25475fc" />
 <img width="1919" height="910" alt="Screenshot 2025-11-18 215952" src="https://github.com/user-attachments/assets/a6097256-2b5f-4983-ab4d-2d85a25ed3bf" />
+<img width="1331" height="613" alt="image" src="https://github.com/user-attachments/assets/80c2cc55-ac84-4c98-b59c-642603287e19" />
+<img width="1867" height="862" alt="Screenshot 2025-11-25 200520" src="https://github.com/user-attachments/assets/0215eacd-418c-4489-8dcf-9363b2f04ff4" />
+<img width="1904" height="756" alt="Screenshot 2025-11-25 200557" src="https://github.com/user-attachments/assets/1f7cbca7-f33d-4a1a-9267-a22e6e236a64" />
+
+
 
 
 ## Author
