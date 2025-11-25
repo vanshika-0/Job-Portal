@@ -54,3 +54,4 @@ A web-based platform that allows job seekers to register, search, and apply for 
 
 ## Author
 Vanshika
+Megha Bansal
